@@ -50,3 +50,131 @@ div img
     width: 38px;
     height: 38px;
 }
+
+
+
+
+
+
+
+section {
+    margin-top: 80px;
+    text-align: center;
+    /* margin-bottom: 50px; */
+  }
+
+  section h1 {
+    position: relative;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0 10px;
+    margin: 50px 0 30px;
+    color: #351bff;
+  }
+  
+  section h1:before,
+  section h1:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    background-color: #0077cc;
+    transform: translateY(-50%);
+    width: 80px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  section h1:before {
+    left: 0;
+  }
+  
+  section h1:after {
+    right: 0;
+  }
+  
+  section h1:hover:before {
+    transform: translate(80%, -50%);
+  }
+  
+  section h1:hover:after {
+    transform: translate(-80%, -50%);
+  }
+
+
+  section p {
+  text-align: left;
+  position: relative;
+  font-size: 28px;
+  padding: 0 10px;
+  margin: 50px 0 30px;
+  color: #000000;
+  }
+
+  ol {
+    font-size: 28px;
+  }
+  
+  li {
+    font-size: inherit;
+  }
+  
+
+
+
+
+
+
+  
+  form {
+    display: inline-block;
+    text-align: left;
+    border: 2px solid #0077cc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0077cc;
+    font-weight: bold;
+  }
+
+  input[type="email"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="submit"] {
+    background-color: #0077cc;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+  
