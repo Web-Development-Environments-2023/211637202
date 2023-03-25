@@ -1,8 +1,11 @@
-body, html 
-{
-	margin: 0;
-	padding: 0;
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
+
 
 #menu {
 	position: fixed;
@@ -118,8 +121,8 @@ section h1:hover:after {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 38px;
-    height: 38px;
+    width: 44px;
+    height: 44px;
 }
 
 
@@ -140,13 +143,23 @@ section p {
   color: #000000;
   }
 
+  .about ol {
+    text-align: center;
+  }
+
+  .about il {
+    text-align: center;
+  }
+
   ol {
     font-size: 28px;
-    list-style-position: inside;
+    /* list-style-position: inside; */
+    /* text-align: left; */
   }
   
   li {
     font-size: inherit;
+    text-align: left;
   }
 
 
@@ -170,11 +183,78 @@ section p {
 
 
 
+  form {
+    display: inline-block;
+    text-align: left;
+    border: 2px solid #0077cc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0077cc;
+    font-weight: bold;
+  }
 
 
+
+
+  input[type="submit"] {
+    background-color: #0077cc;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .emoji-list {
+    margin: 10px 0;
+  }
+  
+  .emoji {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .send-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #0062cc;
+  }
+
+
+
+
+
+  body {
+    background: linear-gradient(to bottom right, #F36BA2, #5F0A87);
+    background-image: url('https://www.transparenttextures.com/patterns/gplay.png');
+  }
   
 
 
 
 
 
+  
